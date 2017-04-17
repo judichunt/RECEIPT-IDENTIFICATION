@@ -48,7 +48,7 @@ for keyword in storename:
 d_train_text['text_length']=0
 for i in range(length):
     print(i)
-    cleaned_text1=str(d_train_text['text'][i]).split('\\')
+    cleaned_text1=str(d_train_text['text'][i]).split('\n')
     cleaned_text2=str(d_train_text['text'][i]).split()
     d_train_text['text_length'][i]=len(cleaned_text2)
     for keyword in storename:
