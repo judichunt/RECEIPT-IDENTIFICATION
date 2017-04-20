@@ -1,7 +1,7 @@
 # RECEIPT-IDENTIFICATION
 Is this receipt a “Walmart” receipt – Yes/No?
 
-The input_folder sould be changed in following 3 python files to the folder of the photos in your computer.
+The input_folder in following 3 python files sould be replaced with the folder of the photos in your computer.
 
 1. pytesseract_test: extract words from photos                
    output: ocr_train and ocr_test
@@ -12,4 +12,4 @@ The input_folder sould be changed in following 3 python files to the folder of t
    input: ocr testN, and scores           
    outout: full_submission
    
-need to rename the files(delete the dates)
+Need to rename the output files(delete the dates)
