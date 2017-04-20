@@ -7,5 +7,5 @@ Is this receipt a “Walmart” receipt – Yes/No?
    input: ocr_train and ocr_test  
    output ocr_trainN, ocr_testN and scores                  
 3. find_string: find Date, Subtotal and tax in the receipt                                 
-   input: ocr testN, and scores 
+   input: ocr testN, and scores           
    outout: full_submission
