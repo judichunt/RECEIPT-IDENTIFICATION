@@ -29,10 +29,10 @@ from sklearn.model_selection import train_test_split
 
 
 input_folder = 'C:/Users/user/Downloads/Aeon Predict/'
-d_train_text = pd.read_csv(input_folder + 'ocr_train_text.csv',encoding = "ISO-8859-1")
-d_test_text = pd.read_csv(input_folder + 'ocr_testN.csv',encoding = "ISO-8859-1")
+d_train_text = pd.read_csv(input_folder + 'ocr_train.csv',encoding = "ISO-8859-1")
+d_test_text = pd.read_csv(input_folder + 'ocr_test.csv',encoding = "ISO-8859-1")
 #d_test_text = pd.read_json(input_folder + 'ocr_test_1.json')
-storename= ['TARGET','Walmart','TRADER JOES']
+storename= ['TARGET','Walmart','TRADER JOES','WALGREEN']
 keywords=['EXPECT MORE PAY LESS','Save money. Live better.']
 for word in keywords:
     storename.append(word)
