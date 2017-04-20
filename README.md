@@ -9,3 +9,5 @@ Is this receipt a “Walmart” receipt – Yes/No?
 3. find_string: find Date, Subtotal and tax in the receipt                                 
    input: ocr testN, and scores           
    outout: full_submission
+   
+need to rename the files(delete the dates)
