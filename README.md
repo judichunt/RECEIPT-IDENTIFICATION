@@ -1,6 +1,8 @@
 # RECEIPT-IDENTIFICATION
 Is this receipt a “Walmart” receipt – Yes/No?
 
+The input_folder sould be changed in following 3 python files to the folder of the photos in your computer.
+
 1. pytesseract_test: extract words from photos                
    output: ocr_train and ocr_test
 2. storename_features: find features from the text, and use xgboost to classify             
